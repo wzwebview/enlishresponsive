@@ -38,7 +38,7 @@ a{
 	color: #666;
 }
 .nav div p span{
-	color: red;
+	color: #ff0a0a;
 }
 .nav div h3{
 	float: left;
@@ -84,7 +84,7 @@ a{
 }
 .content .inner div a{
 	float: left;
-	color: #408cca;
+	color: #0a74b7;
 	margin: 10px 0;
 }
 .content .inner div a:hover{
