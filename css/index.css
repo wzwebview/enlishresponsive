@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,ol{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+.mainwidth{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.nav{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.nav img{
+	float: left;
+	height: 100px;
+}
+.nav div{
+	float: left;
+	margin-top: 55px;
+}
+.nav div p{
+	font-size: 20px;
+	color: #666;
+}
+.nav div p span{
+	color: red;
+}
+.nav div h3{
+	float: left;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 20px 0 8px;
+}
+.nav div h4{
+	float: left;
+	font-weight: normal;
+	font-size: 18px;
+}
+.content{
+	width: 100%;
+	float: left;
+}
+.content .inner{
+	float: left;
+}
+.content .inner img{
+	float: left;
+	width: 135px;
+}
+.content .inner h3{
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+.content .inner div{
+	float: left;
+	width: 100%;
+	padding: 5px;
+	background-color: #ccc;
+	border: 1px solid #000;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.content .inner div p{
+	float: left;
+	font-size: 14px;
+	line-height: 1.5;
+	word-break: break-all;
+}
+.content .inner div a{
+	float: left;
+	color: #408cca;
+	margin: 10px 0;
+}
+.content .inner div a:hover{
+	color: #009ef9;
+}
+.footer{
+	padding: 15px 0;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.footer .border{
+	margin: 20px 0;
+	height: 80px;
+	padding: 5px;
+	border: 1px solid #333;
+	background-color: #e2e2e2;
+	border-radius: 5px;
+}
+.footer .border p{
+	font-size: 14px;
+	line-height: 1.5;
+}
+.footer .address{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.footer .address .border{
+	float: left;
+	width: 100%;
+}
+.footer .copy{
+	float: left;
+	width: 100%;
+}
+@media screen and (min-width: 768px){
+	.mainwidth{
+		width: 600px;
+	}
+	.nav div p{
+		font-size: 22px;
+	}
+	.nav div h3{
+		float: right;
+		font-size: 24px;
+		margin: 30px 0 10px;
+	}
+	.nav div h4{
+		float: right;
+		font-size: 20px;
+	}
+	.content .inner{
+		width: 48%;
+	}
+	.content .inner.inr2{
+		float: right;
+	}
+	.footer .address .border{
+		width: 48%;
+	}
+	.footer .address .border.ad2{
+		float: right;
+	}
+}
+@media screen and (min-width: 992px) {
+	.mainwidth{
+		width: 780px;
+	}
+	.nav div{
+		float: right;
+		width: 500px;
+	}
+	.content.cnt1 .inner.inr1,
+	.content.cnt2 .inner.inr2{
+		width: 175px;
+	}
+	.content.cnt1 .inner.inr2,
+	.content.cnt2 .inner.inr1{
+		width: 435px;
+	}
+	.footer .address{
+		width: 66.6%;
+	}
+	.footer .copy{
+		width: 31%;
+		float: right;
+	}
+}
